@@ -19,7 +19,7 @@ class Database {
         });
         mongoose.connection.on('disconnected', function () {
             console.log('mongo db connection closed');
-        })
+        });
         await mongoose.connect(this.url, {
             useNewUrlParser: true,
             useUnifiedTopology: true
