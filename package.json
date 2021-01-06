@@ -19,9 +19,6 @@
     "mongoose": "^5.10.13",
     "multer": "^1.4.2",
     "node-gyp": "^7.1.2",
-    "nodemailer": "^6.4.16",
-    "nodemon": "^2.0.6",
-    "stoppable": "^1.1.0",
     "uuid": "^8.3.1",
     "winston": "^3.3.3"
   },
@@ -29,12 +26,12 @@
     "nodemon": "~1.3.8"
   },
   "scripts": {
-    "start": "nodemon ./server.js",
+    "start": "node ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KhaledEsmail77/tazweed.git"
+    "url": "git+https://github.com/nourahossaamm/Historical-Tourism"
   },
   "keywords": [
     "tazweed"
@@ -42,7 +39,7 @@
   "author": "Khaled",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KhaledEsmail77/tazweed/issues"
+    "url": "https://github.com/nourahossaamm/Historical-Tourism/issues"
   },
-  "homepage": "https://github.com/KhaledEsmail77/tazweed#readme"
+  "homepage": "https://github.com/nourahossaamm/Historical-Tourism#readme"
 }
